@@ -1,7 +1,5 @@
 class Solution {
-    //double ptr
     public boolean validPalindrome(String s) {
-        // question def: an str can be palindrome when deleting AT MOST one char from the str
         int i = 0; // beginning of the str
         int j = s.length() - 1; // end of the str
         
@@ -11,7 +9,7 @@ class Solution {
                 i++;
                 j--;
             } else {
-                // when not palindrome: check the next char (i+1 case & j-1 case) 
+                // when not palindrome: check the next char (i+1 case OR j-1 case) 
                 return isPalindrome(s, i + 1, j) || isPalindrome(s, i, j - 1);
             }
         }
@@ -20,11 +18,12 @@ class Solution {
     
     public boolean isPalindrome (String s, int i, int j){
         while(i < j){
-            // check if next char satisfy palindrome: if can, return validPalindrome & goto next
+            // check if next char satisfy palindrome: if can, goto next until reaching the end
             if(s.charAt(i) == s.charAt(j)){
                 i++;
                 j--;
             } else {
+                // because at most delete one char & we already done that at "validpalindrome" phase, if next pair of char still not palindrome, we have to return false
                 return false;
 			}
         }

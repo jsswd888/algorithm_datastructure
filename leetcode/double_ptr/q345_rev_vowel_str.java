@@ -10,7 +10,7 @@ class Solution {
             char at_j = s.charAt(j);
             
             if(!vowel.contains(String.valueOf(at_i))){
-                ret[i++] = at_i;
+                ret[i++] = at_i; // NOTE: ret[i++] = at_i is same as ret[i] = at_i; i++; so as the ret[j--]
             } else if(!vowel.contains(String.valueOf(at_j))){
                 ret[j--] = at_j;
             } else{
@@ -18,7 +18,6 @@ class Solution {
                 ret[j--] = at_i; 
             }
         }
-        
 
         return new String(ret);
     }
