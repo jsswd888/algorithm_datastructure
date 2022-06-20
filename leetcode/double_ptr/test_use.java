@@ -9,15 +9,40 @@ public class test_use
         int m = 3;
         int n = 3;
 
-        int[] merged = Arrays.addAll(nums1, nums2);
+        //int[] merged = Arrays.addAll(nums1, nums2);
         
 
-        Arrays.sort(merged);
+        //Arrays.sort(merged);
         
 
-        for (int i = 0; i < nums1.length; i++) {
-            nums1[i] = merged[i];
+        //for (int i = 0; i < nums1.length; i++) {
+        //    nums1[i] = merged[i];
+        //}
+       
+        int b = -135;
+        String a = Integer.toString(b);
+        
+        String[] temp = new String[] {"3", "2", "1","-" };
+        int len = temp.length;
+        String[] dest = new String[temp.length];
+        String[] negative_dest = new String[temp.length];
+        if (temp[0].equals("-")) {
+            for (int i = 1; i < dest.length; i++) {
+                dest[len - 1] = temp[i];
+                len--;
+            }
         }
-
+        if (dest[dest.length - 1] == "-") {
+            System.arraycopy(dest, 0, negative_dest, 0, dest.length - 1);
+            dest[0] = "-";
+        }
+        
+        long reverse = Long.parseLong(String.join("", dest));
+        System.out.println(Arrays.toString(dest));
+        System.out.println(String.join("", dest));
+        System.out.println("reverse: " + reverse);
+        //long d = Long.parseLong(String.join("", c));
+        //System.out.println(a.charAt(0));
+        //System.out.println(d);
     }
 }

@@ -9,6 +9,7 @@ class Solution {
             char at_i = s.charAt(i);
             char at_j = s.charAt(j);
             
+            // String.valueOf(char) is a charsequence, so it can be used for .contains()
             if(!vowel.contains(String.valueOf(at_i))){
                 ret[i++] = at_i; // NOTE: ret[i++] = at_i is same as ret[i] = at_i; i++; so as the ret[j--]
             } else if(!vowel.contains(String.valueOf(at_j))){
