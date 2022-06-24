@@ -17,9 +17,10 @@ I am currently following the following link for leetcode sections:
 | --- | --- | --- | ---
 |2022.6.17| **968. Binary Tree Cameras**|[Solution](./leetcode/daily_challenge/20220617_q968_bst_camera.java) <br> [Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/2160273/JAVA-oror-EXPLAINED-oror)| BST; DFS
 | 2022.6.19 | **1268. Search Suggestion System**  | [Solution](./leetcode/daily_challenge/20220619_q1268_search_suggestion_sys.java)
-| 2022.6.22 | **1262. Furthest Building to Reach** | [Solution](./leetcode/daily_challenge/20220622_q1642_furthest_building.java), <br>[Failed Solution](./leetcode/daily_challenge/20220622_q1642_furthest_building_failed_sol.java) <br> | Greedy
-| 2022.6.23 | **215. Kth largest element in array** | [Solution](./leetcode/daily_challenge/20220623_q215_kth_largeElem_arr.java) | 
-| 2022.6.24 | **630. Course Schedule III**| [Solution](./leetcode/daily_challenge/20220624_q630_course_schedule_III.java) <br> [Explanation](https://leetcode.com/problems/course-schedule-iii/discuss/2185367/Java-or-Greedy-or-Explained) |  Greedy
+| 2022.6.21 | **1262. Furthest Building to Reach** | [Solution](./leetcode/daily_challenge/20220621_q1642_furthest_building.java), <br>[Failed Solution](./leetcode/daily_challenge/20220621_q1642_furthest_building_failed_sol.java) <br> | Greedy
+| 2022.6.22 | **215. Kth largest element in array** | [Solution](./leetcode/daily_challenge/20220622_q215_kth_largeElem_arr.java) | 
+| 2022.6.23 | **630. Course Schedule III**| [Solution](./leetcode/daily_challenge/20220623_q630_course_schedule_III.java) <br> [Explanation](https://leetcode.com/problems/course-schedule-iii/discuss/2185367/Java-or-Greedy-or-Explained) |  Greedy
+| 2022.6.24 | **1354. Construct target array with multiple sums** | [Solution](./leetcode/daily_challenge/20220624_q1354_constr_arr_with_multi_sum.java) <br> [Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | Max heap; Priority queue application; done reversely
 
 ### Double Pointers Problem
 | Questions | Solutions | Notes
