@@ -4,21 +4,21 @@ public class test_use
 {
     public static void main(String[] args) {
 
-        int[] nums1 = new int[] { 1, 2, 3, 0, 0, 0 };
+        /*int[] nums1 = new int[] { 1, 2, 3, 0, 0, 0 };
         int[] nums2 = new int[] { 2, 5, 6 };
         int m = 3;
         int n = 3;
-
+        
         //int[] merged = Arrays.addAll(nums1, nums2);
         
-
+        
         //Arrays.sort(merged);
         
-
+        
         //for (int i = 0; i < nums1.length; i++) {
         //    nums1[i] = merged[i];
         //}
-       
+        
         int b = -135;
         String a = Integer.toString(b);
         
@@ -43,6 +43,26 @@ public class test_use
         System.out.println("reverse: " + reverse);
         //long d = Long.parseLong(String.join("", c));
         //System.out.println(a.charAt(0));
-        //System.out.println(d);
+        //System.out.println(d);*/
+        
+        int[] nums = new int[]{4,2,3};
+        System.out.println(checkPossibility(nums));
+    }
+
+    public static boolean checkPossibility(int[] nums) {
+    int count = 0;
+    for (int i = 1, temp = 0; i < nums.length - 1; i++) {
+        System.out.println(nums[i] + "Runned");
+        if(nums[i] < nums[i-1]){
+            if(count > 1 || nums[i+1] <= nums[i-1]) return false;
+            else {
+                count++;
+                temp = nums[i];
+                nums[i] = nums[i+1];
+                nums[i+1] = temp;
+            }
+        }
+    }
+    return count <=1;
     }
 }
