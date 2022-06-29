@@ -55,6 +55,14 @@ I am currently following the following link for leetcode sections:
 > ### Sequencing (K-th element question)
 TBD
 
+> ### Dynamic Programming (dp)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **64. Minimum Path Sum** | [Solution](./leetcode/dp/q64_min_path_sum.java) |
+| **304. Range Sum Query 2D - Immutable** | [Solution](./leetcode/dp/q304_range_sum_query_2d.java) |
+| **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold** | [Solution](./leetcode/dp/q1292_max_sidelen.java) |
+
+
 > ## Data structure:
 
 The current plan is to implement some data structures that have learned, e.g. rebuild of Dijikstra; perfect BST; 2,3,4 Tree; B-Tree; Hash Table/Map, etc. 
