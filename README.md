@@ -44,6 +44,9 @@ I am currently following the following link for leetcode sections:
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **455. Assign cookies** | [Solution](./leetcode/greedy/q455_assign_cookies.java)
+| **435. Non-overlapping Intervals**| [Solution](./leetcode/greedy/q435_non-overlap_interval.java) | Similar to 6.29 daily question
+| **452. Min Number of Arrow to Burst Ballons** | [Solution](./leetcode/greedy/q452_min_num_arrow.java) | Similar to q435 BUT FAILED COUPLE TIMES; 435 compare upper bound; here we compare lower bound
+| **121. Best Time to Buy & Sell Stock**| [Solution](./leetcode/greedy/q121_best_time_sell_stock.java) | 
 
 
 > ## Data structure:
