@@ -12,7 +12,7 @@ I am currently following the following link for leetcode sections:
 
 [LeetCode Question Solution](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 
-### Daily Challenge
+> ### Daily Challenge
 | Date | Questions | Solutions | Notes
 | --- | --- | --- | ---
 |2022.6.17| **968. Binary Tree Cameras**|[Solution](./leetcode/daily_challenge/20220617_q968_bst_camera.java) <br> [Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/2160273/JAVA-oror-EXPLAINED-oror)| BST; DFS
@@ -28,7 +28,7 @@ I am currently following the following link for leetcode sections:
 | 2022.6.29 | **406. Queue Reconstruction by Height**| [Solution](./leetcode/daily_challenge/20220629_q406_queue_reconstr_by_height.java) <br> [Explanation](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/2211641/Visual-Explanation-or-JAVA-Greedy) | **Greedy**; <br> take note of the explanation & comments in the code
 
 
-### Double Pointers Problem
+> ### Double Pointers Problem
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **1. Two Sum** | [Solution](./leetcode/double_ptr/q1_two_sum.java)
@@ -40,7 +40,7 @@ I am currently following the following link for leetcode sections:
 | **680. Valid Palindrome**| [Solution](./leetcode/double_ptr/q680_valid_palindrome.java)
 
 
-### Greedy
+> ### Greedy
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **455. Assign cookies** | [Solution](./leetcode/greedy/q455_assign_cookies.java)
@@ -52,8 +52,8 @@ I am currently following the following link for leetcode sections:
 | **392. Is Sequence** |[Solution](./leetcode/greedy/q392_is_sequence.java) | **Dynamic Programming;** <br> NOTE about the comments & algorithm we adopt in this question (useful for avoding repititive char cases)
 | **53. Maximum Subarray** | [Solution](./leetcode/greedy/q53_max_subarr.java) | NOTE about the buffer & its cleaning step (help avoid only adding positive numbers in the array)
 
-
-
+> ### Sequencing (K-th element question)
+TBD
 
 > ## Data structure:
 
