@@ -5,6 +5,7 @@ This repository keeps track of my Leetcode question progress & couple implementa
 > ## Updates
 - 6.20 update: double pointer one question left; rest section wait for update
 - 6.22: finished doubel pointer section; start with greedy; daily question updated routinely.
+- 6.29: New **Data Structure** section plan: also include some leetcode questions. The folder structure & introductions will be modified in near future (after finishing dynamic programming & k-th element sequencing section; planned to start in early July)
 
 > ## Leetcode
 
