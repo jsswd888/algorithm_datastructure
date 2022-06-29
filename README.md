@@ -47,6 +47,12 @@ I am currently following the following link for leetcode sections:
 | **435. Non-overlapping Intervals**| [Solution](./leetcode/greedy/q435_non-overlap_interval.java) | Similar to 6.29 daily question
 | **452. Min Number of Arrow to Burst Ballons** | [Solution](./leetcode/greedy/q452_min_num_arrow.java) | Similar to q435 BUT FAILED COUPLE TIMES; 435 compare upper bound; here we compare lower bound
 | **121. Best Time to Buy & Sell Stock**| [Solution](./leetcode/greedy/q121_best_time_sell_stock.java) | 
+| **122. Best Time to Buy & Sell Stock II**| [Solution](./leetcode/greedy/q122_best_time_sell_stock_II.java) | basically same as q121, but add another cumulative counter to see if cumulative profit is greater than greatest difference
+| **605. Can Place Flowers** | [Solution](./leetcode/greedy/q605_can_place_flowers.java) | Tricky point is the boundary case: need to be carefully handled (add virtual zero in beginning / end case when necessary; <br> see details in comment)
+| **392. Is Sequence** |[Solution](./leetcode/greedy/q392_is_sequence.java) | **Dynamic Programming;** <br> NOTE about the comments & algorithm we adopt in this question (useful for avoding repititive char cases)
+| **53. Maximum Subarray** | [Solution](./leetcode/greedy/q53_max_subarr.java) | NOTE about the buffer & its cleaning step (help avoid only adding positive numbers in the array)
+
+
 
 
 > ## Data structure:
