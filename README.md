@@ -27,9 +27,9 @@ I am currently following the following link for leetcode sections:
 | 2022.6.27 | **1689. Partitioning Into Minimum Number Of Deci-Binary Numbers**| [Solution](./leetcode/daily_challenge/20220627_q1689_Partitioning_min_deci_bin_num.java)<br> [Explanation](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/discuss/2202690/One-Main-Observation-%2B-Interview-Tips-or-JAVA-Explained) | Look at the thinking of how to solve the problem -> can be found from observing the given data in the question! <br> notice about the usage of str.charAt(i) - 'num': can actually return int result!
 | 2022.6.28 | **1647. Minimum Deletions to Make Character Frequencies Unique** | [Solution](./leetcode/daily_challenge/20220628_q1647_min_deletion_make_char_unique.java) | **Greedy**;<br> NOTE about use of Set (property of contain no duplicate elements)
 | 2022.6.29 | **406. Queue Reconstruction by Height**| [Solution](./leetcode/daily_challenge/20220629_q406_queue_reconstr_by_height.java) <br> [Explanation](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/2211641/Visual-Explanation-or-JAVA-Greedy) | **Greedy**; <br> take note of the explanation & comments in the code
+| 2022.6.30 | **462. Minimum Moves to Equal Array Elements II** | [Solution](./leetcode/daily_challenge/20220630_q462_min_moves_to_equal_arr_elem_II.java)
 
-
-> ### Double Pointers Problem
+> ### Double Pointers
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **1. Two Sum** | [Solution](./leetcode/double_ptr/q1_two_sum.java)
@@ -52,9 +52,12 @@ I am currently following the following link for leetcode sections:
 | **605. Can Place Flowers** | [Solution](./leetcode/greedy/q605_can_place_flowers.java) | Tricky point is the boundary case: need to be carefully handled (add virtual zero in beginning / end case when necessary; <br> see details in comment)
 | **392. Is Sequence** |[Solution](./leetcode/greedy/q392_is_sequence.java) | **Dynamic Programming;** <br> NOTE about the comments & algorithm we adopt in this question (useful for avoding repititive char cases)
 | **53. Maximum Subarray** | [Solution](./leetcode/greedy/q53_max_subarr.java) | NOTE about the buffer & its cleaning step (help avoid only adding positive numbers in the array)
+| **763. Partition Labels** | [Explanation](https://leetcode.com/problems/partition-labels/discuss/1868842/JavaC%2B%2B-VISUALLY-EXPLAINEDDDDD!!) | NOTE about using of HashMaps here; <br> **NOT FINISHED; NEED REVIEW EXPLANATION!**
 
 > ### Sequencing (K-th element question)
-TBD
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **347. Top K Frequent Elements** | [Solution](./leetcode/sequencing/q347_top_k_frequent_elem.java) <br> [Explanation](https://leetcode.com/problems/top-k-frequent-elements/discuss/2193776/Easy-JAVA-solution-with-clear-explanation-using-PriorityQueue) | Note how to use the HashMap (as the "dictionary" in python, as well as the priority queue (instead of useing bucket sort, use the priority queue and ranked each nodes by frequencys) , and grab out the kth top nodes)
 
 > ### Dynamic Programming (dp)
 | Questions | Solutions | Notes
