@@ -28,6 +28,7 @@ I am currently following the following link for leetcode sections:
 | 2022.6.28 | **1647. Minimum Deletions to Make Character Frequencies Unique** | [Solution](./leetcode/daily_challenge/20220628_q1647_min_deletion_make_char_unique.java) | **Greedy**;<br> NOTE about use of Set (property of contain no duplicate elements)
 | 2022.6.29 | **406. Queue Reconstruction by Height**| [Solution](./leetcode/daily_challenge/20220629_q406_queue_reconstr_by_height.java) <br> [Explanation](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/2211641/Visual-Explanation-or-JAVA-Greedy) | **Greedy**; <br> take note of the explanation & comments in the code
 | 2022.6.30 | **462. Minimum Moves to Equal Array Elements II** | [Solution](./leetcode/daily_challenge/20220630_q462_min_moves_to_equal_arr_elem_II.java)
+| 2022.7.1 | **1710. Maximum Units on a Truck** | [Solution](./leetcode/daily_challenge/20220701_q1710_Maximum_Units_on_a_Truck.java) | Greedy; NOTE the usage of var "availability": helps avoid overload & underload problem; Moreover, using only while loop decrease time complexity 
 
 > ### Double Pointers
 | Questions | Solutions | Notes
