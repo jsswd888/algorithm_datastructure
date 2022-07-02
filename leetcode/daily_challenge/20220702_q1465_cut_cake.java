@@ -1,3 +1,8 @@
+/* Explanation of why use long: "actually in some cases (a*b) creates such a big answer 
+ that it surpasses the storing capacity of an int variable ( called memory overflow) , 
+ hence we use long to store all results and then after we have done modulo 
+ we convert out final answer to int."
+ */
 class Solution {
     public int maxArea(int h, int w, int[] horizontalCuts, int[] verticalCuts) {
         int n = horizontalCuts.length;
