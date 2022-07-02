@@ -19,7 +19,7 @@ I am currently following the following link for leetcode sections:
 |2022.6.17| **968. Binary Tree Cameras**|[Solution](./leetcode/daily_challenge/20220617_q968_bst_camera.java) <br> [Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/2160273/JAVA-oror-EXPLAINED-oror)| BST; DFS
 | 2022.6.19 | **1268. Search Suggestion System**  | [Solution](./leetcode/daily_challenge/20220619_q1268_search_suggestion_sys.java)
 | 2022.6.21 | **1262. Furthest Building to Reach** | [Solution](./leetcode/daily_challenge/20220621_q1642_furthest_building.java), <br>[Failed Solution](./leetcode/daily_challenge/20220621_q1642_furthest_building_failed_sol.java) <br> | **Greedy**
-| 2022.6.22 | **215. Kth largest element in array** | [Solution](./leetcode/daily_challenge/20220622_q215_kth_largeElem_arr.java) | 
+| 2022.6.22 | **215. Kth largest element in array** | [Solution](./leetcode/daily_challenge/20220622_q215_kth_largeElem_arr.java) | **Sequencing Problem**
 | 2022.6.23 | **630. Course Schedule III**| [Solution](./leetcode/daily_challenge/20220623_q630_course_schedule_III.java) <br> [Explanation](https://leetcode.com/problems/course-schedule-iii/discuss/2185367/Java-or-Greedy-or-Explained) |  **Greedy**
 | 2022.6.24 | **1354. Construct target array with multiple sums** | [Solution](./leetcode/daily_challenge/20220624_q1354_constr_arr_with_multi_sum.java) <br> [Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | **Max heap**; Priority queue application; done reversely
 | 2022.6.25 | **665. Non-decreasing Array**|[Solution](./leetcode/daily_challenge/20220625_q665_non-decreasing_array.java) <br> [Explanation](https://leetcode.com/problems/non-decreasing-array/discuss/2193084/Visual-Explanation-or-JAVA-Greedy) | **Greedy**; <br>  similar to a palindrome question (q345 probably)
@@ -61,6 +61,8 @@ I am currently following the following link for leetcode sections:
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **347. Top K Frequent Elements** | [Solution](./leetcode/sequencing/q347_top_k_frequent_elem.java) <br> [Explanation](https://leetcode.com/problems/top-k-frequent-elements/discuss/2193776/Easy-JAVA-solution-with-clear-explanation-using-PriorityQueue) | Note how to use the HashMap (as the "dictionary" in python, as well as the priority queue (instead of useing bucket sort, use the priority queue and ranked each nodes by frequencys) , and grab out the kth top nodes)
+| **75. Sort Colors** | [Solution](./leetcode/sequencing/q75_sort_colors.java) | **Dutch flag problem;** <br> Note about the algorithm limitations; see details in code comments
+| **451. Sort Characters By Frequency** | [Solution](./leetcode/sequencing/q451_sort_char_by_freq.java) | NOTE the frequent use of **priority queue** & **Hashmap (dict in Python)** NEED to familiarize; <br> see details in coding comments; 
 
 > ### Dynamic Programming (dp)
 | Questions | Solutions | Notes
@@ -92,6 +94,9 @@ The current plan is to implement some data structures that have learned, e.g. re
 | -- | -- | --
 | **Red-Black Tree** | [Implementation](./datastrcuture/RedBlack_Tree/src/RedBlackTree.java) | From CS 400 Assignment
 | **Dijikstra Shortest Path** | [Implementation](./datastrcuture/Dijkstra_Shortest_Path/src/CS400Graph.java) | From CS 400 Assignment
+
+> ## Some useful links
+[BucketSort](https://www.geeksforgeeks.org/bucket-sort-2/)
 
 > ## NOTE about algorithm
 
