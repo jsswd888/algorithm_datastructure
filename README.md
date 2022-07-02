@@ -11,7 +11,7 @@ This repository keeps track of my Leetcode question progress & couple implementa
 
 I am currently following the following link for leetcode sections:
 
-[LeetCode Question Solution](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
+[LeetCode Question Guide & Some Solution](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 
 > ### Daily Challenge
 | Date | Questions | Solutions | Notes
@@ -56,6 +56,7 @@ I am currently following the following link for leetcode sections:
 | **53. Maximum Subarray** | [Solution](./leetcode/greedy/q53_max_subarr.java) | NOTE about the buffer & its cleaning step (help avoid only adding positive numbers in the array)
 | **763. Partition Labels** | [Explanation](https://leetcode.com/problems/partition-labels/discuss/1868842/JavaC%2B%2B-VISUALLY-EXPLAINEDDDDD!!) | NOTE about using of HashMaps here; <br> **NOT FINISHED; NEED REVIEW EXPLANATION!**
 
+
 > ### Sequencing (K-th element question)
 | Questions | Solutions | Notes
 | --- | --- | ---
@@ -67,6 +68,20 @@ I am currently following the following link for leetcode sections:
 | **64. Minimum Path Sum** | [Solution](./leetcode/dp/q64_min_path_sum.java) |
 | **304. Range Sum Query 2D - Immutable** | [Solution](./leetcode/dp/q304_range_sum_query_2d.java) |
 | **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold** | [Solution](./leetcode/dp/q1292_max_sidelen.java) |
+
+
+> ### Binary Searches 
+**P.S.** Many of these questions hasn't use binary search, but may be more intuitive to understand.
+
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **34. Find First and Last Position of Element in Sorted Array**| [code from others](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/2228113/Java-100-Faster) | **NOTE: NOT UNDERSTAND QUESTION**: why run while loop two times (exact same structure) can help get the left tail & right tail of the desired element index? <br> binary search IS useful here.
+| **69. Find square root of (x)**| [Solution](./leetcode/bin_search/q69_sqrt(x).java) | intuitively solve using `Math.sqrt()`
+| **153. Find Minimum in Rotated Sorted Array** | [Solution](./leetcode/bin_search/q153_find_min_num_in_rotated_sorted_arr.java) | confused what "rotate" do here, as no requirement of outputing anything related; <br> compare adjacent element is more intuitive to understand here;
+| **278. First Bad Version** | [Solution](./leetcode/bin_search/q278_first_bad_ver.java) | binary search here is shown to be very intuitive & useful; <br> because the true version can only be the last version (**understand correctly: if current mid ver is false, then correct version must be appear on later version (so update `start = mid + 1`)**), we can use this property to implement the bin search algorithm
+| **540. Single Element in a Sorted Array** | [Solution](./leetcode/bin_search/q540_single_elemen_in_sorted_arr.java) | Similar usage of `prev` and `next` var as in greedy question q605 to avoid `indexOutofBound Exception`; <br> the single element in a sorted array must be different from their neighbours (make sure to set different number for start & end case); <br> see details in code
+| **744. Find Smallest Letter Greater Than Target** |[Solution](./leetcode/bin_search/q744_smallest_char_greater_target.java) | both **binary search** & **index-by-index comparing** code provided; but binary search also seems reasonable here as the given array is **sorted**
+
 
 
 > ## Data structure:
