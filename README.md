@@ -31,6 +31,14 @@ I am currently following the following link for leetcode sections:
 | 2022.7.1 | **1710. Maximum Units on a Truck** | [Solution](./leetcode/daily_challenge/20220701_q1710_Maximum_Units_on_a_Truck.java) | Greedy; NOTE the usage of var "availability": helps avoid overload & underload problem; Moreover, using only while loop decrease time complexity
 | 2022.7.2 | **1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts** | [Solution](./leetcode/daily_challenge/20220702_q1465_cut_cake.java) <br> [failed attempt](./leetcode/daily_challenge/20220702_q1465_cut_cake_failed_attempt.java) | **NOTE** about its using of data type **long** and adoption of **mod** to convert back from long to int, where `mod = 1e9 + 7` <br> Adoption of long pretty useful to avoid memory overflow (inputted num. > max int datatype); similar cases occured before in another leetcode question; <br> Failed attempt also attached; thinking is correct but need improvement on implementation; <br> explanation of why use `Long` see in `./solution.java` comments. 
 
+
+> ### Leetcode 75 Study Plan
+| Date | Questions | Difficulties | Solutions | Notes
+| --- | --- | --- | --- | ---
+| 2022.7.2 | **1480. Running Sum of 1d Array** | *Easy* | [Solutions](./leetcode/lc_75q/q1480_running_sum_of_1d_arr.java) | 
+| | **724. Find Pivot Index** | *Easy* | [Solutions](./leetcode/lc_75q/q724_find_pivot_index.java) | **NOTE** appropriate use of `break`; avoid code keep running, as we want the first satisfied index to be returned.
+
+
 > ### Double Pointers
 | Questions | Solutions | Notes
 | --- | --- | ---
