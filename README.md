@@ -6,7 +6,8 @@ This repository keeps track of my Leetcode question progress & couple implementa
 - 6.20 update: double pointer one question left; rest section wait for update
 - 6.22: finished doubel pointer section; start with greedy; daily question updated routinely.
 - 6.29: New **Data Structure** section plan: also include some leetcode questions. The folder structure & introductions will be modified in near future (after finishing dynamic programming & k-th element sequencing section; planned to start in early July)
-
+- 7.5 Take a note of the `ListNode` question; encountered CAN'T DO cases couple of times! NOTE: usually use `ListNode` for singly-linked list questions
+   
 > ## Leetcode
 
 I am currently following the following link for leetcode sections:
@@ -38,21 +39,21 @@ I am currently following the following link for leetcode sections:
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
 | --- | --- | --- | --- | ---
-| 2022.7.2 | **1480. Running Sum of 1d Array** | *Easy* | [Solutions](./leetcode/lc_75q/q1480_running_sum_of_1d_arr.java) | 
-| | **724. Find Pivot Index** | *Easy* | [Solutions](./leetcode/lc_75q/q724_find_pivot_index.java) | **NOTE** appropriate use of `break`; avoid code keep running, as we want the first satisfied index to be returned.
-| 2022.7.3 | **205. Isomorphic Strings** | *Easy* | [Solutions](./leetcode/lc_75q/q205_isomorphic_str.java) | **NOTE: NOT ANSWERED QUESTION; NEED REVIEW**
-| | **392. Is Subsequence** | *Easy* | [Solutions](./leetcode/lc_75q/q392_is_subseq.java) | Note the uses of **two counters**: we traverse on   target str `t`, but when found matched char, we will also increment the counter on subsequence str `s`.
-| 2022.7.4 | **21. Merge Two Sorted Lists** | [Solutions](./leetcode/lc_75q/q21_merge_two_sorted_list.java) | **Linked-list Node Question**; <br> **REVIEW NEEDED**
-| | **206. Reverse Linked List** | [Solutions](./leetcode/lc_75q/q206_reverse_linked_list.java) | **Linked-list Node Question**; <br> **REVIEW NEEDED**
-| 2022.7.5 | **876. Middle of the Linked List** | | **Linked-list Node Question**; <br> **REVIEW NEEDED**
-| | **142. Linked List Cycle II** | | **Linked-list Node Question**; <br> **REVIEW NEEDED**
+| 2022.7.2 | **1480. Running Sum of 1d Array** | *Easy* | [Solution](./leetcode/lc_75q/q1480_running_sum_of_1d_arr.java) | 
+| | **724. Find Pivot Index** | *Easy* | [Solution](./leetcode/lc_75q/q724_find_pivot_index.java) | **NOTE** appropriate use of `break`; avoid code keep running, as we want the first satisfied index to be returned.
+| 2022.7.3 | **205. Isomorphic Strings** | *Easy* | [Solution](./leetcode/lc_75q/q205_isomorphic_str.java) | **NOTE: NOT ANSWERED QUESTION; NEED REVIEW**
+| | **392. Is Subsequence** | *Easy* | [Solution](./leetcode/lc_75q/q392_is_subseq.java) | Note the uses of **two counters**: we traverse on   target str `t`, but when found matched char, we will also increment the counter on subsequence str `s`.
+| 2022.7.4 | **21. Merge Two Sorted Lists** | *Easy* | [Solution](./leetcode/lc_75q/q21_merge_two_sorted_list.java) | **Linked-list Node**;  
+| | **206. Reverse Linked List** | *Easy* |[Solution](./leetcode/lc_75q/q206_reverse_linked_list.java) | **Linked-list Node**; 
+| 2022.7.5 | **876. Middle of the Linked List** | *Easy* | | **Linked-list Node**; 
+| | **142. Linked List Cycle II** | *Medium* | [Solution](./leetcode/lc_75q/q142_linked_list_cycle_II.java) | **Linked-list Node**; <br> **Double pointers**, similar question as [q141](./leetcode/double_ptr/q141_linked_list_cycle.java)
 
 > ### Double Pointers
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **1. Two Sum** | [Solution](./leetcode/double_ptr/q1_two_sum.java)
 | **88. Merge sort Array**| [Solution](./leetcode/double_ptr/q88_merge_sort_Arr.java)
-| **141. Linked list Cycle**| [Solution](./leetcode/double_ptr/q141_linked_list_cycle.java)
+| **141. Linked list Cycle**| [Solution](./leetcode/double_ptr/q141_linked_list_cycle.java) | Similar question see [q142](./leetcode/lc_75q/q142_linked_list_cycle_II.java)
 | **345. Reverse vowels of a String**| [Solution](./leetcode/double_ptr/q345_rev_vowel_str.java)
 | **524. Longest word in dictionary** | [Solution](./leetcode/double_ptr/q524_longest_word_in_dict.java)
 | **638. Sum of two sqaures**| [Solution](./leetcode/double_ptr/q638_sum_of_two_sqr.java)
