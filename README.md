@@ -32,6 +32,7 @@ I am currently following the following link for leetcode sections:
 | 2022.7.2 | **1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts** | [Solution](./leetcode/daily_challenge/20220702_q1465_cut_cake.java) <br> [failed attempt](./leetcode/daily_challenge/20220702_q1465_cut_cake_failed_attempt.java) | **NOTE** about its using of data type **long** and adoption of **mod** to convert back from long to int, where `mod = 1e9 + 7` <br> Adoption of long pretty useful to avoid memory overflow (inputted num. > max int datatype); similar cases occured before in another leetcode question; <br> Failed attempt also attached; thinking is correct but need improvement on implementation; <br> explanation of why use `Long` see in `./solution.java` comments. 
 | 2022.7.3 | **376. Wiggle Sequence** | [Solution](./leetcode/daily_challenge/20220703_q376_wiggle_seq.java) | **NOTE** the use of `>=` judgement; <br> **CAREFULLY** read the question: we are allowed to delete elements from the array to make it as `wiggle sequence`. Therefore, the `if` condition set in the code help us to increment at correct conditions.
 | 2022.7.4 | **135. Candy** | [Solution From Leetcode (Solution 2)](https://leetcode.com/problems/candy/solution/) | **NOTE: NOT FINISHED; REVIEW NEEDED**
+| 2022.7.5 | **128. Longest Consecutive Sequence** | [Solution](./leetcode/daily_challenge/20220705_q128_longest_consctve_seq.java) <br> [Explanation](https://leetcode.com/problems/longest-consecutive-sequence/discuss/2238885/Java-O(n)-90-faster-Easy-Explanation-With-comments) | Take a look at the solution & re-calculate the time complexity for this solution (requirement is `O(n)`).
 
 
 > ### Leetcode 75 Study Plan
@@ -39,9 +40,12 @@ I am currently following the following link for leetcode sections:
 | --- | --- | --- | --- | ---
 | 2022.7.2 | **1480. Running Sum of 1d Array** | *Easy* | [Solutions](./leetcode/lc_75q/q1480_running_sum_of_1d_arr.java) | 
 | | **724. Find Pivot Index** | *Easy* | [Solutions](./leetcode/lc_75q/q724_find_pivot_index.java) | **NOTE** appropriate use of `break`; avoid code keep running, as we want the first satisfied index to be returned.
-| 2022.7.3 | |
-| 2022.7.4 |
-
+| 2022.7.3 | **205. Isomorphic Strings** | *Easy* | [Solutions](./leetcode/lc_75q/q205_isomorphic_str.java) | **NOTE: NOT ANSWERED QUESTION; NEED REVIEW**
+| | **392. Is Subsequence** | *Easy* | [Solutions](./leetcode/lc_75q/q392_is_subseq.java) | Note the uses of **two counters**: we traverse on   target str `t`, but when found matched char, we will also increment the counter on subsequence str `s`.
+| 2022.7.4 | **21. Merge Two Sorted Lists** | [Solutions](./leetcode/lc_75q/q21_merge_two_sorted_list.java) | **Linked-list Node Question**; <br> **REVIEW NEEDED**
+| | **206. Reverse Linked List** | [Solutions](./leetcode/lc_75q/q206_reverse_linked_list.java) | **Linked-list Node Question**; <br> **REVIEW NEEDED**
+| 2022.7.5 | **876. Middle of the Linked List** | | **Linked-list Node Question**; <br> **REVIEW NEEDED**
+| | **142. Linked List Cycle II** | | **Linked-list Node Question**; <br> **REVIEW NEEDED**
 
 > ### Double Pointers
 | Questions | Solutions | Notes
