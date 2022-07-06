@@ -7,6 +7,7 @@ This repository keeps track of my Leetcode question progress & couple implementa
 - 6.22: finished doubel pointer section; start with greedy; daily question updated routinely.
 - 6.29: New **Data Structure** section plan: also include some leetcode questions. The folder structure & introductions will be modified in near future (after finishing dynamic programming & k-th element sequencing section; planned to start in early July)
 - 7.5 Take a note of the `ListNode` question; encountered CAN'T DO cases couple of times! NOTE: usually use `ListNode` for singly-linked list questions
+- 7.6 No question done; need review tomorrow
    
 > ## Leetcode
 
