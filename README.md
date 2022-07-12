@@ -38,6 +38,9 @@ I am currently following the following link for leetcode sections:
 | 2022.7.5 | **128. Longest Consecutive Sequence** | [Solution](./leetcode/daily_challenge/20220705_q128_longest_consctve_seq.java) <br> [Explanation](https://leetcode.com/problems/longest-consecutive-sequence/discuss/2238885/Java-O(n)-90-faster-Easy-Explanation-With-comments) | Take a look at the solution & re-calculate the time complexity for this solution (requirement is `O(n)`).
 
 
+regular update 7.11
+
+
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
 | --- | --- | --- | --- | ---
