@@ -9,6 +9,7 @@ This repository keeps track of my Leetcode question progress & couple implementa
 - 7.5 Take a note of the `ListNode` question; encountered CAN'T DO cases couple of times! NOTE: usually use `ListNode` for singly-linked list questions
 - 7.6 No question done; need review tomorrow
 - 7.7 No question done; need review (preparing exams)
+- 8.1 update: no major update during July: will first fill in daily question one by one.
    
 > ## Leetcode
 
@@ -36,9 +37,12 @@ I am currently following the following link for leetcode sections:
 | 2022.7.3 | **376. Wiggle Sequence** | [Solution](./leetcode/daily_challenge/20220703_q376_wiggle_seq.java) | **NOTE** the use of `>=` judgement; <br> **CAREFULLY** read the question: we are allowed to delete elements from the array to make it as `wiggle sequence`. Therefore, the `if` condition set in the code help us to increment at correct conditions.
 | 2022.7.4 | **135. Candy** | [Solution From Leetcode (Solution 2)](https://leetcode.com/problems/candy/solution/) | **NOTE: NOT FINISHED; REVIEW NEEDED**
 | 2022.7.5 | **128. Longest Consecutive Sequence** | [Solution](./leetcode/daily_challenge/20220705_q128_longest_consctve_seq.java) <br> [Explanation](https://leetcode.com/problems/longest-consecutive-sequence/discuss/2238885/Java-O(n)-90-faster-Easy-Explanation-With-comments) | Take a look at the solution & re-calculate the time complexity for this solution (requirement is `O(n)`).
+| 2022.7.26 | **236. Lowest Common Ancestor of a Binary Tree** | [Solution](./leetcode/daily_challenge/20220726_q236_LCA_of_bin_tree.java); <br> [Video Explanation](https://www.youtube.com/watch?v=Sy1HmN6RbBA); <br> [Graphical Explanation](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/2334071/C%2B%2BJava-or-Full-Explanations-or-bits-99.87) | NOTE: what drawn as the return "null" is actually whether ***p* or *q* is found** in related subtree; if found, return it; if not, return null;<br> This is a **bin tree** problem
+| 2022.7.27 | **114. Flatten Binary Tree to Linked List** | [Solution](./leetcode/daily_challenge/20220727_flatten_binTree_to_linkedlist.java); <br> [Explanation: 2.Intuition](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/discuss/2340103/Two-different-approaches-faster-than-100-with-detailed-explanation-()-or-Java) | The principle to solve this problem is: firstly find the right-most child in the left subtree (relative to root); then, connect the right subtree to this rightmost node in left subtree, move left subtree of the root completely to the right, and then set the "new root" to the right child of the root (for further recursion). After doing that, we are now at the first right child of the root (first level flattening finished). The thing left for us to do is to do this on each root.rightChild one by one (set each as the new root relatively)
+| 2022.7.29 | **242. Valid Anagram** | [Solution](./leetcode/daily_challenge/20220729_q242_valid_anagram.java) | Very simple approach: convert two str to char array, sort each, & compare each char at each index one by one (satisfied two str must match exactly at each index)
+| 2022.8.1 | **62. Unique Paths** | [Solution](./leetcode/daily_challenge/20220801_q62_unique_path.java) | classical **Dynamic Programming (Dp) problem;** <br> similar question (but changed somehow)) appeared couple times later
 
 
-regular update 7.11
 
 
 > ### Leetcode 75 Study Plan
