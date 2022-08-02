@@ -9,7 +9,7 @@ This repository keeps track of my Leetcode question progress & couple implementa
 - 7.5 Take a note of the `ListNode` question; encountered CAN'T DO cases couple of times! NOTE: usually use `ListNode` for singly-linked list questions
 - 7.6 No question done; need review tomorrow
 - 7.7 No question done; need review (preparing exams)
-- 8.1 update: no major update during July: will first fill in daily question one by one; daily question: 7.30,31 **need review**
+- 8.1 update: no major update during July: will first fill in daily question one by one; daily question: 7.26 ~ 23 , 7.30,31 **need review**
    
 > ## Leetcode
 
@@ -44,6 +44,7 @@ I am currently following the following link for leetcode sections:
 | 2022.7.28 | **242. Valid Anagram** | [Solution](./leetcode/daily_challenge/20220728_q242_valid_anagram.java) | Very simple approach: convert two str to char array, sort each, & compare each char at each index one by one (satisfied two str must match exactly at each index)
 | 2022.7.29 | **890. Find and Replace Pattern** | [Solution](./leetcode/daily_challenge/20220729_q890_find_replace_pattern.java) | see details in helper method comments: basic thinking is to compare index of char in target str one by one: if repititive, the first index of this char must always the same
 | 2022.8.1 | **62. Unique Paths** | [Solution](./leetcode/daily_challenge/20220801_q62_unique_path.java) | classical **Dynamic Programming (Dp) problem;** <br> similar question (but changed somehow)) appeared couple times later
+| 2022.8.2 | **378. Kth Smallest Element in a Sorted Matrix** | [Solution](./leetcode/daily_challenge/20220802_q378_k_smallest_elemen_in_sorted_mat.java) | Note the use of `count`: must used in this way so that we can keep correct track of the convertred array's index; <br> **Possible optimization:** the current version algorithm is not most optimized and exceed `O(n^2)` (possibly `O(n^3)`)
 
 
 
