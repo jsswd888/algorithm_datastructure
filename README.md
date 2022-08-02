@@ -10,6 +10,7 @@ This repository keeps track of my Leetcode question progress & couple implementa
 - 7.6 No question done; need review tomorrow
 - 7.7 No question done; need review (preparing exams)
 - 8.1 update: no major update during July: will first fill in daily question one by one; daily question: 7.26 ~ 23 , 7.30,31 **need review**
+- 8.2 update: 7.17,18,22 **need review**: the rest 4 questions in that week finished
    
 > ## Leetcode
 
@@ -36,7 +37,11 @@ I am currently following the following link for leetcode sections:
 | 2022.7.2 | **1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts** | [Solution](./leetcode/daily_challenge/20220702_q1465_cut_cake.java) <br> [failed attempt](./leetcode/daily_challenge/20220702_q1465_cut_cake_failed_attempt.java) | **NOTE** about its using of data type **long** and adoption of **mod** to convert back from long to int, where `mod = 1e9 + 7` <br> Adoption of long pretty useful to avoid memory overflow (inputted num. > max int datatype); similar cases occured before in another leetcode question; <br> Failed attempt also attached; thinking is correct but need improvement on implementation; <br> explanation of why use `Long` see in `./solution.java` comments. 
 | 2022.7.3 | **376. Wiggle Sequence** | [Solution](./leetcode/daily_challenge/20220703_q376_wiggle_seq.java) | **NOTE** the use of `>=` judgement; <br> **CAREFULLY** read the question: we are allowed to delete elements from the array to make it as `wiggle sequence`. Therefore, the `if` condition set in the code help us to increment at correct conditions.
 | 2022.7.4 | **135. Candy** | [Solution From Leetcode (Solution 2)](https://leetcode.com/problems/candy/solution/) | **NOTE: NOT FINISHED; REVIEW NEEDED**
-| 2022.7.5 | **128. Longest Consecutive Sequence** | [Solution](./leetcode/daily_challenge/20220705_q128_longest_consctve_seq.java) <br> [Explanation](https://leetcode.com/problems/longest-consecutive-sequence/discuss/2238885/Java-O(n)-90-faster-Easy-Explanation-With-comments) | Take a look at the solution & re-calculate the time complexity for this solution (requirement is `O(n)`).
+| 2022.7.5 | **128. Longest Consecutive Sequence** | [Solution](./leetcode/daily_challenge/20220705_q128_longest_consctve_seq.java) <br> [Explanation](https://leetcode.com/problems/longest-consecutive-sequence/discuss/2238885/Java-O(n)-90-faster-Easy-Explanation-With-comments) | Take a look at the solution & re-calculate the time complexity for this solution (requirement is `O(n)`). 
+| 2022.7.19 | **118. Pascal's Triangle** | [Solution](./leetcode/daily_challenge/20220719_q118_pascal_triangle.java) | see comment for further explanation
+| 2022.7.20 | **792.Number of Matching Subsequences** | [Solution](./leetcode/daily_challenge/20220720_q792_num_match_seq.java) | **NOTE** how the **`Hashmap`** is used in the implementation of this algorithm and how to keep track on ***targeted str*** & ***comparing sub-str***
+| 2022.7.21 | **92. Reverse Linked List II** | [Solution](./leetcode/daily_challenge/20220721_q92_reverse_linkedList_II.java) | **NOTE** the sequence of changing the `node.next` (so that **no inheritance loss**) and how the `prev`, `curr`, and`forw` pointer is set; <br> see similar practice `Q206.Reverse Linked List I` [here]((./leetcode/lc_75q/q206_reverse_linked_list.java)) 
+| 2022.7.22 | **86. Partition List** | [Solution](./leetcode/daily_challenge/20220722_q86_partition_list.java) | **NOTE** the use of two ***singly-linked list*** `leftTail` & `rightTail`: keep track of two type nodes as required, based on value, and then combine them into one
 | 2022.7.24 | **240. Search a 2D Matrix II** | [Solution](./leetcode/daily_challenge/20220724_q240_search_a_2d_mat.java) | classical **Dynamic Programming (Dp) problem;** <br> simple approach: search through each index in 2-d array one by one and find if any of them matches; if not, return `false` finally. 
 | 2022.7.25 | **34. Find First and Last Position of Element in Sorted Array** | [Solution](./leetcode/daily_challenge/20220725_q34_find_first_last_elemen_in_sorted_arr.java) | a classical **Recursion** problem; <br> initially set the return numbers as -1 (default value); the basic idea is to run the recursion **2 times:** first time in the left half and second time in the right half; because it is sorted, the first time found index will be the start index and the second time found index will be the end index
 | 2022.7.26 | **236. Lowest Common Ancestor of a Binary Tree** | [Solution](./leetcode/daily_challenge/20220726_q236_LCA_of_bin_tree.java); <br> [Video Explanation](https://www.youtube.com/watch?v=Sy1HmN6RbBA); <br> [Graphical Explanation](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/2334071/C%2B%2BJava-or-Full-Explanations-or-bits-99.87) | NOTE: what drawn as the return "null" is actually whether ***p* or *q* is found** in related subtree; if found, return it; if not, return null;<br> This is a **bin tree** problem
@@ -125,6 +130,7 @@ The current plan is to implement some data structures that have learned, e.g. re
 | -- | -- | --
 | **Red-Black Tree** | [Implementation](./datastrcuture/RedBlack_Tree/src/RedBlackTree.java) | From CS 400 Assignment
 | **Dijikstra Shortest Path** | [Implementation](./datastrcuture/Dijkstra_Shortest_Path/src/CS400Graph.java) | From CS 400 Assignment
+| **B+ Tree** |[Implementation]() | CURRENTLY IN PROGRESS
 
 > ## Some useful links
 [BucketSort](https://www.geeksforgeeks.org/bucket-sort-2/)
@@ -134,4 +140,4 @@ The current plan is to implement some data structures that have learned, e.g. re
 Some popular algorithm is probably gonna included, e.g. BFS/DFS; A* searching; Greedy; etc.
 
 The repository is actively updating.
-Last Edited: 2022.6
+Last Edited: 2022.8
