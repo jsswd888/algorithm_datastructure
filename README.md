@@ -50,6 +50,7 @@ I am currently following the following link for leetcode sections:
 | 2022.7.29 | **890. Find and Replace Pattern** | [Solution](./leetcode/daily_challenge/20220729_q890_find_replace_pattern.java) | see details in helper method comments: basic thinking is to compare index of char in target str one by one: if repititive, the first index of this char must always the same
 | 2022.8.1 | **62. Unique Paths** | [Solution](./leetcode/daily_challenge/20220801_q62_unique_path.java) | classical **Dynamic Programming (Dp) problem;** <br> similar question (but changed somehow)) appeared couple times later
 | 2022.8.2 | **378. Kth Smallest Element in a Sorted Matrix** | [Solution](./leetcode/daily_challenge/20220802_q378_k_smallest_elemen_in_sorted_mat.java) | Note the use of `count`: must used in this way so that we can keep correct track of the convertred array's index; <br> **Possible optimization:** the current version algorithm is not most optimized and exceed `O(n^2)` (possibly `O(n^3)`)
+| 2022.8.3 | **729. My Calendar I** | [Solution](./leetcode/daily_challenge/20220803_q729_my_calendar_I.java) | **NOTE** the way build the calendar constructor: the use of a list consist of array.
 
 
 
