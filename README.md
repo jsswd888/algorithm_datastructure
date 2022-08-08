@@ -11,7 +11,8 @@ This repository keeps track of my Leetcode question progress & couple implementa
 - 7.7 No question done; need review (preparing exams)
 - 8.1 update: no major update during July: will first fill in daily question one by one; daily question: 7.26 ~ 23 , 7.30,31 **need review**
 - 8.2 update: 7.17,18,22 **need review**: the rest 4 questions in that week finished
-   
+- 8.8 update: finally finished semester work & currently no update for 8.7, 8.8 daily question; will follow up since tomorrow
+
 > ## Leetcode
 
 I am currently following the following link for leetcode sections:
