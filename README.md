@@ -13,6 +13,7 @@ This repository keeps track of my Leetcode question progress & couple implementa
 - 8.2 update: 7.17,18,22 **need review**: the rest 4 questions in that week finished
 - 8.8 update: finally finished semester work & currently no update for 8.7, 8.8 daily question; will follow up since tomorrow
 - 8.16 update: 8.7 - 8.15 daily question pending review; finish math section q67, 168, 172, 204, 405, 504 today & have related code submitted
+- 8.17: finish daily challenge, q462(6.30 daily question & reviewed), q169, q367, q326, q238, q628 Math problems; math section finished; math section finish & wait to start data structures.
 
 > ## Leetcode
 
@@ -57,7 +58,8 @@ I am currently following the following link for leetcode sections:
 | 2022.8.4 | **858. Mirror Reflection** | [Solution](./leetcode/daily_challenge/20220804_q858_Mirror_reflection.java); <br>[Explanation](https://leetcode.com/problems/mirror-reflection/discuss/2376191/C%2B%2B-Java-Python-or-Faster-then-100-or-Full-explanations-or) | **Pretty stupid question; less possible appear on interview**; <br>  Simple mathematic problem, just need to find out the cases when fall onto mirror 1 & cases when fall onto mirror 2. See explanation page for review.
 | 2022.8.5 | **377. Combination Sum IV** | [Solution](./leetcode/daily_challenge/20220805_q377_comb_sum_IV.java); <br> [Explanation](https://leetcode.com/problems/combination-sum-iv/discuss/2381079/Java-or-1ms-or-DP-or-Top-Down-or-memoization-or-easy) | classical **Dynamic Programming (Dp) problem;** <br> very genius algorithm as described in **explanation** (make sure to **double check!**)
 | 2022.8.6 | **458. Poor Pigs** | [Solution](./leetcode/daily_challenge/20220806_q458_poor_pigs.java)
-| 2022.8.16 | **387. First Unique Character in a String** | [Solution](./leetcode/daily_challenge/20220816_q387_first_unique_char_in_str.java) | **NOTE** that this question is better using frequency count: using the array `int[] freq = new int[26]` to keep track of occurence (similar question appeared before); note that if use the counter we need to break the first time found individual occurence alphabet 
+| 2022.8.16 | **387. First Unique Character in a String** | [Solution](./leetcode/daily_challenge/20220816_q387_first_unique_char_in_str.java) | **NOTE** that this question is better using frequency count: using the array `int[] freq = new int[26]` to keep track of occurence (similar question appeared before); note that if use the counter we need to break the first time found individual occurence alphabet
+| 2022.8.17 | **804. Unique Morse Code Words** | [Solution](./leetcode/daily_challenge/20220817_q804_unique_morse_code_words.java) 
 
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
