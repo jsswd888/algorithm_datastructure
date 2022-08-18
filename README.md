@@ -60,6 +60,7 @@ I am currently following the following link for leetcode sections:
 | 2022.8.6 | **458. Poor Pigs** | [Solution](./leetcode/daily_challenge/20220806_q458_poor_pigs.java)
 | 2022.8.16 | **387. First Unique Character in a String** | [Solution](./leetcode/daily_challenge/20220816_q387_first_unique_char_in_str.java) | **NOTE** that this question is better using frequency count: using the array `int[] freq = new int[26]` to keep track of occurence (similar question appeared before); note that if use the counter we need to break the first time found individual occurence alphabet
 | 2022.8.17 | **804. Unique Morse Code Words** | [Solution](./leetcode/daily_challenge/20220817_q804_unique_morse_code_words.java) 
+| 2022.8.18 | **1338. Reduce Array Size to The Half** | [Solution](./leetcode/daily_challenge/20220818_q1338_reduce_arr_size_to_half.java)
 
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
