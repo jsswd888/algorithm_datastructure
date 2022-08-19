@@ -115,6 +115,10 @@ I am currently following the following link for leetcode sections:
 | **304. Range Sum Query 2D - Immutable** | [Solution](./leetcode/dp/q304_range_sum_query_2d.java) |
 | **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold** | [Solution](./leetcode/dp/q1292_max_sidelen.java) |
 | **74. Search a 2D Matrix** | [Solution](./leetcode/dp/q74_search_a_2d_matrix.java) | same approach as q240 Search a 2D Matrix II (7.24 daily question); <br> difference in the matrix number characteristics doesn't matter in solving the two questions
+| **70. Climbing Stairs** | [Solution](./leetcode/dp/q70_climbing_stair.java) | **Fibonacci**
+| **198. House Robber** | [Solution](./leetcode/dp/q198_house_robber.java) |
+| **213. House Robber II** | [Solution](./leetcode/dp/q213_house_robber_ii.java)| us q198 solution as the helper method; done a little bit different thing on the base case & usage of helper method
+| **303. Range Sum Query - Immutable** | [Solution](./leetcode/dp/q303_range_sum_query_immutable.java) | usage of `private` var; double check the way how the int array object is been initialized (actually to another array), and how to call & utilize it.
 
 
 > ### Binary Searches 
