@@ -62,6 +62,8 @@ I am currently following the following link for leetcode sections:
 | 2022.8.17 | **804. Unique Morse Code Words** | [Solution](./leetcode/daily_challenge/20220817_q804_unique_morse_code_words.java) 
 | 2022.8.18 | **1338. Reduce Array Size to The Half** | [Solution](./leetcode/daily_challenge/20220818_q1338_reduce_arr_size_to_half.java)
 | 2022.8.19 | **659. Split Array into Consecutive Subsequences** | [Solution](./leetcode/daily_challenge/20220819_q659_split_arr_consecutive_seq.java); <br> [Explanation](https://leetcode.com/problems/split-array-into-consecutive-subsequences/discuss/2447452/Java-or-Greedy-or-Just-a-few-lines-or-Explained) | **NOTE:** Review of the arr `int end[]` need to figure out what to do; generally followed personal understanding of the whole question.
+| 2022.8.20 | **871. Minimum Number of Refueling Stops** | [Solution](./leetcode/daily_challenge/20220820_q871_min_num_refuel_stop.java) | **Dynamic Programming Question**; Review needed
+| 2022.8.21 | **936. Stamping The Sequence** | [Solution](./leetcode/daily_challenge/20220821_q936_stamp_seq.py); <br> [Explanation](https://leetcode.com/problems/stamping-the-sequence/discuss/2456316/85MS-Python-Beats-98-multiple-approaches-Fastest-and-Memory-Efficient) | **Not valuable question for interview**; simple review required 
 
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
