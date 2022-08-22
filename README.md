@@ -63,7 +63,8 @@ I am currently following the following link for leetcode sections:
 | 2022.8.18 | **1338. Reduce Array Size to The Half** | [Solution](./leetcode/daily_challenge/20220818_q1338_reduce_arr_size_to_half.java)
 | 2022.8.19 | **659. Split Array into Consecutive Subsequences** | [Solution](./leetcode/daily_challenge/20220819_q659_split_arr_consecutive_seq.java); <br> [Explanation](https://leetcode.com/problems/split-array-into-consecutive-subsequences/discuss/2447452/Java-or-Greedy-or-Just-a-few-lines-or-Explained) | **NOTE:** Review of the arr `int end[]` need to figure out what to do; generally followed personal understanding of the whole question.
 | 2022.8.20 | **871. Minimum Number of Refueling Stops** | [Solution](./leetcode/daily_challenge/20220820_q871_min_num_refuel_stop.java) | **Dynamic Programming Question**; Review needed
-| 2022.8.21 | **936. Stamping The Sequence** | [Solution](./leetcode/daily_challenge/20220821_q936_stamp_seq.py); <br> [Explanation](https://leetcode.com/problems/stamping-the-sequence/discuss/2456316/85MS-Python-Beats-98-multiple-approaches-Fastest-and-Memory-Efficient) | **Not valuable question for interview**; simple review required 
+| 2022.8.21 | **936. Stamping The Sequence** | [Solution](./leetcode/daily_challenge/20220821_q936_stamp_seq.py); <br> [Explanation](https://leetcode.com/problems/stamping-the-sequence/discuss/2456316/85MS-Python-Beats-98-multiple-approaches-Fastest-and-Memory-Efficient) | **Not valuable question for interview**; simple review required
+| 2022.8.22 | **342. Power of four** | [Solution](./leetcode/daily_challenge/20220822_q342_power_of_4.java) | **NOTE:** the way we solve this problem is different from treating power of 2 (q231); <br> the solution of this question can't be used for multiple purposes.
 
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
@@ -190,7 +191,7 @@ b. Twenty Hexadecimal (26, A-Z, then AA & AB): [q168](./leetcode/math/q168_excel
 **NOTE:** when do some number conversions (if need to use similar thing like: `Integer.parseInt(str, base)` or `Long.parseLong()`, directly try to solve out that problem using python int(str, base) to solve possible `NumberFormatException()` may occur in java.)
 
 ---------------- up to q415 ---------------------------
-
+Mathematics: q231: power of two. NOTE that this problem uses thinking of bit manipulation, which is different from how we solve the q342 power of four (the solution for that question can't be used for this one).
 
 
 > ## Data structure:
