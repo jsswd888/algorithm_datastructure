@@ -70,7 +70,7 @@ Notification: 8.22 - 8.29 daily question
 8.22 is Monday
 8.23 - Palindrome linked list - review required
 8.24 - power of three - done together when finishing the math section last week
-8.25 - Ransom Note - currently in progress
+8.25 - Ransom Note - **FINISHED**, need to review how to convert char to charsequence; old method should work
 
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
