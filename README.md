@@ -66,6 +66,12 @@ I am currently following the following link for leetcode sections:
 | 2022.8.21 | **936. Stamping The Sequence** | [Solution](./leetcode/daily_challenge/20220821_q936_stamp_seq.py); <br> [Explanation](https://leetcode.com/problems/stamping-the-sequence/discuss/2456316/85MS-Python-Beats-98-multiple-approaches-Fastest-and-Memory-Efficient) | **Not valuable question for interview**; simple review required
 | 2022.8.22 | **342. Power of four** | [Solution](./leetcode/daily_challenge/20220822_q342_power_of_4.java) | **NOTE:** the way we solve this problem is different from treating power of 2 (q231); <br> the solution of this question can't be used for multiple purposes.
 
+Notification: 8.22 - 8.29 daily question
+8.22 is Monday
+8.23 - Palindrome linked list - review required
+8.24 - power of three - done together when finishing the math section last week
+8.25 - Ransom Note - currently in progress
+
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
 | --- | --- | --- | --- | ---
