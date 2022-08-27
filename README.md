@@ -72,6 +72,8 @@ Notification: 8.22 - 8.29 daily question
 8.24 - power of three - done together when finishing the math section last week
 8.25 - Ransom Note - **FINISHED**, need to review how to convert char to charsequence; old method should wo
 8.26 - 869. Reordered Power of 2 - review needed
+8.27 - 363. Max Sum of Rectangle No Larger Than K - review needed; good question for dynamic programming
+
 
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
