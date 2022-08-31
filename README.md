@@ -67,13 +67,16 @@ I am currently following the following link for leetcode sections:
 | 2022.8.22 | **342. Power of four** | [Solution](./leetcode/daily_challenge/20220822_q342_power_of_4.java) | **NOTE:** the way we solve this problem is different from treating power of 2 (q231); <br> the solution of this question can't be used for multiple purposes.
 
 Notification: 8.22 - 8.29 daily question
-8.22 is Monday
-8.23 - Palindrome linked list - review required
-8.24 - power of three - done together when finishing the math section last week
-8.25 - Ransom Note - **FINISHED**, need to review how to convert char to charsequence; old method should wo
-8.26 - 869. Reordered Power of 2 - review needed
-8.27 - 363. Max Sum of Rectangle No Larger Than K - review needed; good question for dynamic programming
-8.28 - 29; question finished, pending review.
+8.22 is Monday <br>
+8.23 - Palindrome linked list - review required <br>
+8.24 - power of three - done together when finishing the math section last week <br>
+8.25 - Ransom Note - **FINISHED**, need to review how to convert char to charsequence; old method should work <br> 
+8.26 - 869. Reordered Power of 2 - review needed <br>
+8.27 - 363. Max Sum of Rectangle No Larger Than K - review needed; good question for dynamic programming <br>
+8.28 - 29; question finished, pending review. <br>
+
+8.30 finished; pending review
+
 
 > ### Leetcode 75 Study Plan
 | Date | Questions | Difficulties | Solutions | Notes
